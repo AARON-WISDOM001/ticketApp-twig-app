@@ -1,0 +1,12 @@
+{
+    "name": "dell/twig-app",
+    "description": "aaron/twig-app",
+    "authors": [
+        {
+            "name": "Airon dev"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.21"
+    }
+}
