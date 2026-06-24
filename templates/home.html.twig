@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicketFlow - Twig/SSR Simulation</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
     <style>
         /* Custom CSS for decorative circles/blobs */
         @keyframes blob {
@@ -224,7 +224,8 @@
 <script>
     // --- Configuration & Constants ---
     const SESSION_KEY = 'ticketapp_session';
-    // --- i deleted something here --
+    const MOCK_USER_EMAIL = 'user@example.com';
+    const MOCK_USER_PASSWORD = 'password123';
     const MAX_WIDTH_CLASS = "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8";
     const APP_ROOT = document.getElementById('app');
     const MODAL_CONTAINER = document.getElementById('modal-container');
